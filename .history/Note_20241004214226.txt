@@ -1,0 +1,16 @@
+Q1 => What is Python?
+
+* Python is a simple and easy language.
+* Free and open source
+* High level language
+* Developed by Guido Van Rossum
+* Portable
+* Python can be used on a server to create web applications.
+
+Python Character Set--------->
+
+* Letters -> A to Z, a to z
+* Digits -> 0 to 9
+* Special symbols -> + - * / etc 
+* Whitespaces -> Blank space, tab, carriage return, newline, formfeed
+* Other characters -> Python can process all ASCII and Uncode characters as part of data or literals.
