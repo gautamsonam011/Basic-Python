@@ -110,26 +110,7 @@ print(a+b+c) # concatenate
 
 x = "Hi Jiya"
 def myfunc():
-    print("Here:", x)  # inside of the function
+    print("Here:", x)
     
 myfunc()  
-print(x)    # outside of the function
-
-# The global keyword 
-
-def myFunc():
-    global x
-
-    x = "Fantastic!"
-    
-myFunc()
-print("Global variable with global keyword:", x)    
-
-# Local variables in python 
-
-def myF():
-    si = "I love python"
-    print(si)
-
-myF()
-# print(si)    name 'si' is not defined. Did you mean: 's'?
+print(x)  

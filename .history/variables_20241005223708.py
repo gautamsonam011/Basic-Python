@@ -128,8 +128,8 @@ print("Global variable with global keyword:", x)
 # Local variables in python 
 
 def myF():
-    si = "I love python"
-    print(si)
+    s = "I love python"
+    print(s)
 
 myF()
-# print(si)    name 'si' is not defined. Did you mean: 's'?
+print(s)    

@@ -132,4 +132,4 @@ def myF():
     print(si)
 
 myF()
-# print(si)    name 'si' is not defined. Did you mean: 's'?
+print(si)    

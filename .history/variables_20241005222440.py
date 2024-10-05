@@ -123,13 +123,4 @@ def myFunc():
     x = "Fantastic!"
     
 myFunc()
-print("Global variable with global keyword:", x)    
-
-# Local variables in python 
-
-def myF():
-    si = "I love python"
-    print(si)
-
-myF()
-# print(si)    name 'si' is not defined. Did you mean: 's'?
+# print("Global variable with global keyword:", x)    
