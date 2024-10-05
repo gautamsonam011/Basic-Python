@@ -104,6 +104,4 @@ c = "!"
 
 print(a, b, c)
 
-print(a+b+c) # concatenate
-
-
+print(a+b+c)

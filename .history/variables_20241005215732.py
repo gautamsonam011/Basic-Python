@@ -73,37 +73,3 @@ x, y, z = "Sonam", "Gautam", "Engineer"
 print("First Name:", x)
 print("Last Name:", y)
 print("Profession:", z)
-
-# One value to multiple variables 
-
-x = y = z = "Radha"
-
-print(x)
-print(y)
-print(z)
-
-# Unpack a collection 
-
-students = ["Riya", "Rohit", "Sonam"]
-
-x, y, z = students
-
-print(x)
-print(y)
-print(z)
-
-# Output variables :- python print() function is often used to output variables.
-
-
-x = "Basic Python Course"
-print(x)
-
-a = "Hello"
-b = "World"
-c = "!"
-
-print(a, b, c)
-
-print(a+b+c) # concatenate
-
-

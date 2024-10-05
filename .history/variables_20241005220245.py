@@ -91,19 +91,3 @@ x, y, z = students
 print(x)
 print(y)
 print(z)
-
-# Output variables :- python print() function is often used to output variables.
-
-
-x = "Basic Python Course"
-print(x)
-
-a = "Hello"
-b = "World"
-c = "!"
-
-print(a, b, c)
-
-print(a+b+c) # concatenate
-
-

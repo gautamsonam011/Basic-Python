@@ -97,13 +97,3 @@ print(z)
 
 x = "Basic Python Course"
 print(x)
-
-a = "Hello"
-b = "World"
-c = "!"
-
-print(a, b, c)
-
-print(a+b+c) # concatenate
-
-
