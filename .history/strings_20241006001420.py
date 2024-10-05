@@ -70,9 +70,9 @@ print(a.split(","))
 
 a = 57
 b = "Hello"
-# c = a + b
-# print(c)  unsupported operand type(s) for +: 'int' and 'str'
+c = a + b
+print(c)  #unsupported operand type(s) for +: 'int' and 'str'
 
 d = "World"
 
-print(b+d) 
+print(b+d)

@@ -53,26 +53,3 @@ print(x.strip())
 
 z = "  Hey! G"
 print(z.strip())
-
-# Replace String:- replace()
-
-a = "Hello, World!"
-
-print(a.replace("H", "Ji"))
-
-# Split String :- split() method returns a list
-
-b = "Hello World"
-
-print(a.split(","))
-
-# (4):- Concatenate Strings 
-
-a = 57
-b = "Hello"
-# c = a + b
-# print(c)  unsupported operand type(s) for +: 'int' and 'str'
-
-d = "World"
-
-print(b+d) 
