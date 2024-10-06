@@ -201,22 +201,3 @@ class myClass():
     
 myobj = myClass()
 print(bool(myobj))    
-
-# Functions can return a boolean:-
-# You can create functions that returns a Boolean value 
-
-def myFunc():
-    return True
-
-print(myFunc())
-
-def myfunc():
-    return True
-
-if myfunc():
-    print("Yes!")
-else:
-    print("No!")    
-    
-x = 800
-print(isinstance(x, int))    

@@ -151,72 +151,7 @@ print(x.capitalize())
 x = "Sonam"
 print(x.casefold())
 
-# Python Booleans : True or False
+# center() => returns a centered string 
 
-print(10>9)
-print(10 == 9)
-print(10 < 9)
-
-a = 200
-b = 89
-
-if b > a:
-    print("B is greater than A")
-else:
-    print("B is not greater than A")    
-
-# Evaluate values and variables:- bool() 
-
-print(bool("Hello"))
-print(bool(67))    
-
-x = "Sonam"
-y = 78
-
-print(bool(x))
-print(bool(y))
-
-# Most values are true 
-
-a = bool("ahj")
-b = bool(748)
-c = bool(["apple", "banana", "cherry"])
-
-print(a)
-print(b)
-print(c)
-
-# Sonam values are false 
-print(bool(False))
-print(bool(None))
-print(bool(0))
-print(bool(""))
-print(bool(()))
-print(bool([]))
-print(bool({}))
-
-class myClass():
-    def __len__(self):
-        return 0
-    
-myobj = myClass()
-print(bool(myobj))    
-
-# Functions can return a boolean:-
-# You can create functions that returns a Boolean value 
-
-def myFunc():
-    return True
-
-print(myFunc())
-
-def myfunc():
-    return True
-
-if myfunc():
-    print("Yes!")
-else:
-    print("No!")    
-    
-x = 800
-print(isinstance(x, int))    
+x = "   Sonam"
+print(x.center())

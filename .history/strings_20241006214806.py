@@ -217,6 +217,3 @@ if myfunc():
     print("Yes!")
 else:
     print("No!")    
-    
-x = 800
-print(isinstance(x, int))    
