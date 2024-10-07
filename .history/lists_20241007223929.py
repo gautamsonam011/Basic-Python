@@ -103,6 +103,6 @@ print(list)
 
 # Clear the list 
 # clear()
-list = [45,78,22]
+
 list.clear()
 print(list)

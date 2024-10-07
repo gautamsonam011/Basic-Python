@@ -92,17 +92,3 @@ print(list)
 
 list.pop(0)
 print(list)
-
-list.pop()
-print(list)
-
-# The del keyword also removes the specified index 
-
-del list[0]
-print(list)
-
-# Clear the list 
-# clear()
-list = [45,78,22]
-list.clear()
-print(list)
