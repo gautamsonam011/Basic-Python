@@ -188,33 +188,4 @@ y = ["apple", "banana"]
 print(x is y) # returns False because x is not the same object as y, even if they have the same content
 
 z = x
-print( x is z)  # returns True because z is the same object as x
-
-print( x is not z)
-print(x is not y)
-
-print(x != y)
-
-# Membership operators
-
-x = ["python", "java", "html"]
-
-print("python" in x)
-
-print("python" not in x )
-
-print("css" not in x )
-
-# Bitwise operators 
-
-# & (AND)
-
-print(6 & 7) 
-
-print( 5 | 7)
-print(3 ^ 7)
-print(~6)
-x = 56
-print(45 << x)
-print(34 >> x)
-
+print( x is z)

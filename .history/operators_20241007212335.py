@@ -217,4 +217,3 @@ print(~6)
 x = 56
 print(45 << x)
 print(34 >> x)
-

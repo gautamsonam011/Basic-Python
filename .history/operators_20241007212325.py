@@ -215,6 +215,5 @@ print( 5 | 7)
 print(3 ^ 7)
 print(~6)
 x = 56
-print(45 << x)
+print(45 << 56)
 print(34 >> x)
-

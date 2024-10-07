@@ -204,17 +204,3 @@ print("python" in x)
 print("python" not in x )
 
 print("css" not in x )
-
-# Bitwise operators 
-
-# & (AND)
-
-print(6 & 7) 
-
-print( 5 | 7)
-print(3 ^ 7)
-print(~6)
-x = 56
-print(45 << x)
-print(34 >> x)
-

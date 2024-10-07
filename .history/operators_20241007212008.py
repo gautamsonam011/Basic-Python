@@ -210,11 +210,3 @@ print("css" not in x )
 # & (AND)
 
 print(6 & 7) 
-
-print( 5 | 7)
-print(3 ^ 7)
-print(~6)
-x = 56
-print(45 << x)
-print(34 >> x)
-
