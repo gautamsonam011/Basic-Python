@@ -50,32 +50,7 @@ if "Python" in l:
     
 # Change Item Value 
 
-# replace 
-
 list = ["apple", "banana", "cherry"]
 
 list[1] = "orange"
 print(list)
-
-# change in range 
-
-list[1:3] = ["Hello", "Python"]
-print(list)
-
-# Insert Items in list insert()
-
-list.insert(3,-7) #(index, item)
-print(list)
-
-# Append( )
-
-list.append("orange")
-print(list)
-
-# Extend List 
-
-x = ["Sona", "Shiv", "Ram"]
-
-list.extend(x)
-print(list)
-

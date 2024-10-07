@@ -74,8 +74,7 @@ print(list)
 
 # Extend List 
 
-x = ["Sona", "Shiv", "Ram"]
+x = ["Sona", "Shiv", "ram"]
 
 list.extend(x)
 print(list)
-

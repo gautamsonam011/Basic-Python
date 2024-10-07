@@ -78,4 +78,3 @@ x = ["Sona", "Shiv", "Ram"]
 
 list.extend(x)
 print(list)
-

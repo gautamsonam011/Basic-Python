@@ -61,21 +61,3 @@ print(list)
 
 list[1:3] = ["Hello", "Python"]
 print(list)
-
-# Insert Items in list insert()
-
-list.insert(3,-7) #(index, item)
-print(list)
-
-# Append( )
-
-list.append("orange")
-print(list)
-
-# Extend List 
-
-x = ["Sona", "Shiv", "Ram"]
-
-list.extend(x)
-print(list)
-

@@ -71,11 +71,3 @@ print(list)
 
 list.append("orange")
 print(list)
-
-# Extend List 
-
-x = ["Sona", "Shiv", "Ram"]
-
-list.extend(x)
-print(list)
-
