@@ -1,0 +1,8 @@
+# Python sets :- 
+
+# Unordered 
+# Unchangeable 
+# Duplicates not allowed 
+
+s = {"python", "java", "html", "css"}
+print(s)
