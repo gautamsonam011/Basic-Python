@@ -244,9 +244,6 @@ for x in list2:
 print(list1)   
 
 # extend() method
-l1 = ["Python", "Hello", "Java", 465, False]
-l2 = [324, 56, 67.44, "Java"]
 
-l1.extend(l2)
-print(l1)
-
+list1.extend(list2)
+print(list1)

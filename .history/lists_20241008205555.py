@@ -236,17 +236,3 @@ list2 = [324, 56, 67.44, "Java"]
 
 list3 = list1+list2
 print(list3)
-
-# append() method
-
-for x in list2:
-    list1.append(x)
-print(list1)   
-
-# extend() method
-l1 = ["Python", "Hello", "Java", 465, False]
-l2 = [324, 56, 67.44, "Java"]
-
-l1.extend(l2)
-print(l1)
-
