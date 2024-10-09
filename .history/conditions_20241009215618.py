@@ -54,32 +54,3 @@ if (x > y) and (z > x):
 
 if (x > y) or (x > z):
     print("True")    
-
-# Not 
-
-if not (x < y):
-    print("y is not greater than x")
-
-if not (x > y):
-    print("x is not greater than y")
-    
-# Nested if 
-
-x = 56
-
-if x > 10:
-    print("True")
-    
-    if x > 45:
-        print("Also True")
-
-    else:
-        print("False")        
-
-# The pass statement 
-
-a = 36
-b = 400
-
-if b > a:
-    pass

@@ -75,11 +75,3 @@ if x > 10:
 
     else:
         print("False")        
-
-# The pass statement 
-
-a = 36
-b = 400
-
-if b > a:
-    pass
