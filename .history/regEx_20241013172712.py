@@ -38,14 +38,3 @@ print(x)
 
 x = re.sub("\s", "9", txt, 2)
 print(x)
-
-# Match Object:- 
-
-x = re.search(r"\bS\w+", txt)
-print(x.span())
-
-x = re.search(r"\bS\w+", txt)
-print(x.string)
-
-x = re.search(r"\bS\w+", txt)
-print(x.group())

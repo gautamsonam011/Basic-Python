@@ -28,24 +28,3 @@ print(x.start())
 txt = "The rain in spain"
 x = re.split("\s", txt)
 print(x)
-
-# The sub() function 
-# sub()
-
-txt = "Hi guys how are you!"
-x = re.sub("\s", "9", txt)
-print(x)
-
-x = re.sub("\s", "9", txt, 2)
-print(x)
-
-# Match Object:- 
-
-x = re.search(r"\bS\w+", txt)
-print(x.span())
-
-x = re.search(r"\bS\w+", txt)
-print(x.string)
-
-x = re.search(r"\bS\w+", txt)
-print(x.group())
