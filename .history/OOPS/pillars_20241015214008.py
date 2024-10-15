@@ -128,20 +128,3 @@ obj1 = Parent()
 print("Accessing protected member of parent class:", obj1)
 print("Accessing protected member of child class:", obj)
 
-# Private :- 
-
-class Base:
-    def __init__(self):
-        self.a = "MYCourse"
-        self.__c = "Mycourse"
-
-class Derived(Base):
-    def __init__(self):
-        Base.__init__(self)
-        print("Calling private member of base class")
-        print(self.__c)   
-
-obj = Base()
-print(obj.a)  
-# print(obj.__c) 'Base' object has no attribute '__c'          
-

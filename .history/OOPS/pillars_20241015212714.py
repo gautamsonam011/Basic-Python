@@ -72,10 +72,11 @@ class Suv(CarA):
 obj = Hatchback("Maruti", "Black", "2024")
 obj.car_details()
 obj.accelerate()
-obj.sunroof() 
-
-
+obj.sunroof()         
 # Encapsulation 
+
+
+
 
 # Let's Practice 
 
@@ -106,42 +107,4 @@ print(acc1.account)
 
 acc1.debit(1000)
 acc1.credit(4000)
-
-# Protected :- 
-
-class Parent:
-    def __init__(self):
-        self._a = 3
-
-class Child(Parent):
-    def __init__(self):
-        # Calling constructor of parent class 
-        Parent.__init__(self)
-        print("Calling protected member of parent class", self._a)
-
-        self._a = 5
-        print("Calling modified protect member outside class", self._a)
-
-
-obj = Child()
-obj1 = Parent()
-print("Accessing protected member of parent class:", obj1)
-print("Accessing protected member of child class:", obj)
-
-# Private :- 
-
-class Base:
-    def __init__(self):
-        self.a = "MYCourse"
-        self.__c = "Mycourse"
-
-class Derived(Base):
-    def __init__(self):
-        Base.__init__(self)
-        print("Calling private member of base class")
-        print(self.__c)   
-
-obj = Base()
-print(obj.a)  
-# print(obj.__c) 'Base' object has no attribute '__c'          
-
+        

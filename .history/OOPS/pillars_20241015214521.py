@@ -142,6 +142,5 @@ class Derived(Base):
         print(self.__c)   
 
 obj = Base()
-print(obj.a)  
-# print(obj.__c) 'Base' object has no attribute '__c'          
+print(obj.a)             
 
