@@ -178,6 +178,7 @@ class Child(Parent):
         self.education = education   
 
 obj = Child("Ram", 42, "fair", "2024", "BTech")
+print(.)
 obj.name
 obj.age
         

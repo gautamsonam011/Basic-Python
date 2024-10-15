@@ -147,7 +147,6 @@ print(obj.a)
 
 # Inheritance 
 
-# simple inheritance 
 class Animal:
     def speak(self):
         print("Animal Speaking")
@@ -159,25 +158,3 @@ d = Dog()
 d.bark()
 d.speak()                        
 
-# Multi Level Innheritance 
-
-class GrandParent:
-    def __init__(self, name, age, color):
-        self.name = name
-        self.age = age
-        self.color = color
-
-class Parents(GrandParent):
-    def __init__(self, name, age, color, year):
-        super().__init__(name, age, color)
-        self.year = year
-
-class Child(Parent):
-    def __init__(self, name, age, color, year, education):
-        super().__init__(name, age, color, year)  
-        self.education = education   
-
-obj = Child("Ram", 42, "fair", "2024", "BTech")
-obj.name
-obj.age
-        
