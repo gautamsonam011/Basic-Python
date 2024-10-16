@@ -167,19 +167,19 @@ class GrandParent:
         self.age = age
         self.color = color
 
-# class Parents(GrandParent):
-#     def __init__(self, name, age, color, year):
-#         super().__init__(name, age, color)
-#         self.year = year
+class Parents(GrandParent):
+    def __init__(self, name, age, color, year):
+        super().__init__(name, age, color)
+        self.year = year
 
-# class Child(Parent):
-#     def __init__(self, name, age, color, year, education):
-#         super().__init__(name, age, color, year)  
-#         self.education = education   
+class Child(Parent):
+    def __init__(self, name, age, color, year, education):
+        super().__init__(name, age, color, year)  
+        self.education = education   
 
-# obj = Child("Ram", 42, "fair", "2024", "BTech")
-# obj.name
-# obj.age
+obj = Child("Ram", 42, "fair", "2024", "BTech")
+obj.name
+obj.age
 
 # Multiple Inheritance 
 
@@ -195,58 +195,6 @@ class PC(GPC):
         self.year = year
 
 obj = PC("Son", "Python", 2022)
-print(obj.name)
-print(obj.course)
+obj.name
 
-# GPC and CC 
-
-class CC(GPC):
-    def __init__(self, name, course, branch):
-        super().__init__(name, course)  
-        self.branch = branch
-
-obj = CC("Ram", "Java", "CSE")
-print(obj.name)
-print(obj.branch)
-
-# PC and CC
-
-class CC(PC):
-    def __init__(self, name, course, year, branch):
-        super().__init__(name, course, year)
-        self.branch = branch
-
-obj = CC("Ankit", "JavaScript", "2034", "EC")
-print(obj.name)
-print(obj.course)
-print(obj.branch)
-print(obj.year)    
-
-
-# Hierarchical Inheritance 
-# we can inherite parent class all child class and other
-
-# Polymorphism :---------->
-# Overloading 
-
-class Over:
-    def displayinfo(self, name=''):
-        print("This is user name:" + name)
-
-obj = Over()
-print(obj.displayinfo("Shiv"))  
-print(obj.displayinfo())
-
-# Overriding 
-
-class Ride1:
-    def displayInfo(self):
-        print("Welcome!")
-class Ride2(Ride1):
-    def displayInfo(self):
-        super().displayInfo()
-        print("To IIT")
-
-obj = Ride2()
-print(obj.displayInfo())  
-
+        

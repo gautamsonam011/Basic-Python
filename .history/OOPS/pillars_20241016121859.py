@@ -230,23 +230,8 @@ print(obj.year)
 # Overloading 
 
 class Over:
-    def displayinfo(self, name=''):
+    def displayinfo(self, name):
         print("This is user name:" + name)
 
 obj = Over()
-print(obj.displayinfo("Shiv"))  
-print(obj.displayinfo())
-
-# Overriding 
-
-class Ride1:
-    def displayInfo(self):
-        print("Welcome!")
-class Ride2(Ride1):
-    def displayInfo(self):
-        super().displayInfo()
-        print("To IIT")
-
-obj = Ride2()
-print(obj.displayInfo())  
-
+print(obj.displayinfo("Shiv"))          

@@ -220,33 +220,4 @@ obj = CC("Ankit", "JavaScript", "2034", "EC")
 print(obj.name)
 print(obj.course)
 print(obj.branch)
-print(obj.year)    
-
-
-# Hierarchical Inheritance 
-# we can inherite parent class all child class and other
-
-# Polymorphism :---------->
-# Overloading 
-
-class Over:
-    def displayinfo(self, name=''):
-        print("This is user name:" + name)
-
-obj = Over()
-print(obj.displayinfo("Shiv"))  
-print(obj.displayinfo())
-
-# Overriding 
-
-class Ride1:
-    def displayInfo(self):
-        print("Welcome!")
-class Ride2(Ride1):
-    def displayInfo(self):
-        super().displayInfo()
-        print("To IIT")
-
-obj = Ride2()
-print(obj.displayInfo())  
-
+print(obj.year)        

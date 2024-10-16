@@ -244,9 +244,7 @@ class Ride1:
         print("Welcome!")
 class Ride2(Ride1):
     def displayInfo(self):
-        super().displayInfo()
         print("To IIT")
 
 obj = Ride2()
-print(obj.displayInfo())  
-
+print(obj.displayInfo())               
